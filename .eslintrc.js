@@ -4,6 +4,8 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    "eslint:recommended",
+    "next/core-web-vitals",
     'plugin:react/recommended',
     'airbnb',
   ],
